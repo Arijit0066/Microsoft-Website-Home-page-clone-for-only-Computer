@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+nav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li {
+  font-size: 13px;
+  list-style: none;
+  display: inline;
+}
+.main-header {
+  width: 90%;
+  margin: auto;
+}
+.main-header img {
+  width: 125px;
+  padding-right: 26px;
+}
+.nav-left {
+    display: flex;
+}
+.header-list ul li{
+    padding-right: 23px;
+}
+nav a{
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+nav a::after{
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  bottom: -2px;
+  opacity: 80%;
+}
+nav a:hover::after{
+  width: 100%;
+}
+ul .fa{
+  position: relative;
+  right: 15px;
+  top: 2px;
+  font-size: 20px;
+  opacity: 70%;
+  font-weight: smaller;
+}
+
+/* --------------------microsoft-365-image------------------- */
+
+.microsoft-365-image{
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-M365-Screenplates-Update-Excel:VP5-1920x600);
+  background-position: center;
+  background-size: cover;
+}
+.a-tag ul{
+  display: flex;
+}
+.a-tag ul li{
+  list-style-type: none;
+  padding-top: 20px;
+}
+.a-tag ul li a{
+  text-decoration: none;
+}
+.for-1-person{
+  background-color: #0067B8;
+  padding: 10px;
+  padding-bottom: 13px;
+  color: whitesmoke;
+  border-radius: 2px;
+  font-weight: 550;
+}
+.for-1-person:hover{
+  background-color: #005DA5;
+}
+.For-up-to-6-people{
+  padding-left: 20px;
+  color: #0067B8;
+  font-weight: 550;
+}
+.For-up-to-6-people:hover{
+  text-decoration: 1.50px underline;
+}
+.a-tag .fa{
+  margin-left: 22px;
+  font-size: 25px;
+  margin-top: -3px;
+  color: #0067B8;
+  font-weight: 560;
+  transition: 0.5s;
+}
+.a-tag:hover i{
+  margin-left: 30px;
+}
+.mic-365-container{
+  padding: 120px;
+}
+.microsoft-365-image h1{
+  font-size: 40px;
+  font-weight: 500;
+  padding-bottom: 25px;
+}
+.microsoft-365-image p{
+  padding-bottom: 15px;
+}
+/* -----------------after-356-------------- */
+
+.after-356{
+  width: 10%;
+  margin: auto;
+  padding-top: 5px;
+}
+.after-356 ul li{
+  list-style-type: none;
+  display: inline;
+  padding: 6px;
+  align-items: center;
+}
+.after-356 .dot{
+  font-size: 12px;
+  align-items: center;
+}
+.after-356 .arrow{
+  font-size: 50px;
+  position: relative;
+  top: 13px;
+}
+.after-356 .fa-angle-left{
+  right: 30px;
+  transition: .5s;
+}
+.after-356 .fa-angle-right{
+  transition: .5s;
+  left: 1px;
+}
+.after-356 .fa-angle-right:hover{
+  transform: translateX(10px);
+}
+.fa-angle-left:hover{
+   transform:  aajda; /*NOT WORKING */
+}
+/* ------------------middle 
+section----------- */
+.windos-surface-xbox{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.section-col {
+  padding-left: 30px;
+}
+.full-secion{
+  display: flex;
+}
+.full-secion a{
+  color: #0067B8;
+  font-weight: 550;
+}
+
+/* ------------home cards------------- */
+
+/* ========================================importent========================================== */
+.home-cards{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
+  padding-top: 80px;
+}
+.home-cards img{
+  width: 100%;
+  margin-bottom: 50px;
+}
+.home-cards h3{
+  font-size: 25px;
+  margin-bottom: 17px;
+  font-weight: 500;
+}
+.home-cards a{
+  display: inline-block;
+  padding-top: 20px;
+  color: #0067B8;
+  font-weight: 550;
+  text-decoration: none;
+}
+.home-cards .fa{
+  margin-left: 10px;
+  font-size: 20px;
+  transition: .5s;
+}
+.home-cards a:hover{
+  text-decoration: underline;
+}
+.home-cards a:hover i{
+  margin-left: 20px;
+}
+
+
+/* -------------------edge section-------------- */
+
+.edge{
+  width: 90%;
+  margin: auto;
+  margin-top: 90px;
+  padding-top: 90px;
+  background-image: url(/images/edge\ image);
+  background-position: center;
+  background-size: cover;
+  height: 490px;
+}
+.edge .edge-content{
+  margin: 50px;
+  margin-right: 850px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  background-color: white;
+}
+.edge-content h2{
+  font-weight: 550;
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+.edge-content p{
+  padding-bottom: 25px;
+}
+.edge-content a{
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: #0067B8;
+  padding: 8px;
+  font-weight: 550;
+}
+.edge-content a:hover{
+  background-color: #005DA5;
+}
+.edge-content{
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* ---------------for business section----------- */
+.h1-for-business h1{
+  position: relative;
+  left: 75px;
+  top: 60px;
+  font-weight: 550;
+  font-size: 35px;
+}
+
+/* -------------follow us------------- */
+
+.follow-us{
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+}
+.follow-us i{
+  font-size: 25px;
+  opacity: 80%;
+  padding-left: 25px;
+}
+.follow-us i:hover{
+  opacity: 100%;
+}
+/* ---------------------footer---------------- */
+.footer{
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  background-color: #f2f2f2;
+}
+.footer ul li{
+  list-style: none;
+}
+.footer ul li a{
+  text-decoration: none;
+  color: #4d4b4b;
+}
+.links{
+  color: #616161;
+  font-size: 12px;
+  padding: 35px o;
+}
+.links-inner{
+  width: 1410px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  padding-bottom: 3 0px;
+  grid-template-columns: repeat(6, 1fr);
+}
+.links ul{
+  padding-top: 40px;
+}
+.links li{
+  line-height: 2.8;
+}
+.links li h3{
+  font-weight: 600;
+}
+.links li a:hover{
+  text-decoration: underline;
+}
+/* -----------footer------------ */
+.footer-copyright{
+  width: 90%;
+  margin: auto;
+  font-size: 12px;
+  padding: 20px 0;
+}
+.footer-inner i{
+  font-size: 25px;
+  opacity: 80%;
+  padding: 0px 25px 0px 0px;
+}
+.footer-inner span{
+  opacity: 80%;
+}
+.footer-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-copyright ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-inner ul li{
+  padding: 0px 25px 0px 0px;
+  opacity: 80%;
+}
+.footer-inner ul li:hover,
+.footer-inner span:hover{
+  text-decoration: underline;
+  opacity: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
